@@ -124,10 +124,185 @@
   
   #pg3{
     width: 100vw;
-  
   }
   
   #pg4{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
+    background-color: rgb(3, 101, 67);
+    justify-content: space-between;
   }
+  #pg4>div:nth-child(1){
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+  }
+  #pg4>div>p{
+    width: 60%;
+    text-align: center;
+  }
+.second{
+    display: flex;
+}
+ .second>div{
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    /* align-items: center; */
+ }
+ .second>div>a{
+    color: rgb(0, 255, 0);
+    text-decoration: none;
+ }
+ .third{
+    margin: auto;
+    width: 90%;
+    border: 2px solid rgb(0, 255, 0);
+    padding: 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+ 
+  
+  #pg4{
+    display: flex;
+    flex-direction: column; 
+    background-color: rgb(3, 87, 78);
+    justify-content: space-between;
+  }
+  #pg4>div:nth-child(1){
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+  }
+  #pg5{
+    /* height: 100vh; */
+    background-color: rgb(5, 111, 95);
+    padding-top: 50px;
+  }
+  #pg5>div>p{
+    width: 60%;
+    text-align: center;
+  }
+  #pg5>div:nth-child(1){
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+  }
+.second{
+    display: flex;
+}
+ .second>div{
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    /* align-items: center; */
+ }
+ .second>div>a{
+    color: rgb(0, 255, 0);
+    text-decoration: none;
+ }
+ .third{
+    margin: auto;
+    width: 90%;
+    border: 2px solid rgb(0, 255, 0);
+    padding: 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+  #pg6{
+    /* height: 100vh; */
+    background-color: rgb(7, 84, 66);
+    padding-top: 50px;
+  }
+  #pg6>div>p{
+    width: 60%;
+    text-align: center;
+  }
+  #pg6>div:nth-child(1){
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+  }
+.second{
+    display: flex;
+}
+ .second>div{
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    /* align-items: center; */
+ }
+ .second>div>a{
+    color: rgb(0, 255, 0);
+    text-decoration: none;
+ }
+ .third{
+    margin: auto;
+    margin-top: 60px;
+    width: 90%;
+    border: 2px solid rgb(0, 255, 0);
+    padding: 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+ #pg7{
+    height: 60vh;
+    background-color: teal;
+    padding-top: 50px;
+  
+  }
+  #pg7>div>div{
+    /* width: 60%; */
+     display: flex;
+justify-content: space-between;
+  }
+
+.secondl{
+    display: flex;
+    background-image: url(https://web-static.wrike.com/content/uploads/2022/04/rebrand-promo-integrations_colored-bg_desktop.svg?av=889d1fed0cf74aba8d0506c8ead5254b);
+    background-size: 25%;
+    background-repeat: no-repeat no-repeat;
+    height: 50vh;
+    background-position-x: right;
+    margin-right: 20px;
+}
+ .secondl>div{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .secondl>div>a{
+    color: rgb(0, 255, 0);
+    text-decoration: none;
+ }
+ #limg{
+    width: 50%;
+ }

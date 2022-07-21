@@ -4,7 +4,7 @@
   padding: 0;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 body{
   /* height: 1000vw; */
@@ -12,7 +12,7 @@ body{
   overflow-x: hidden;
 }
 nav {
-  background-color: rgb(2, 41, 52);
+  background-color: rgb(5, 98, 124);
  position: fixed;
   width: 100vw;
 z-index: 1;
@@ -51,7 +51,7 @@ nav > div > a > img {
 }
 .hover>ul>ul>li{
   background: rgb(255, 255, 255);
-  color: black;
+  color: rgb(0, 0, 0);
   display: none;
   z-index: 1;
 }
