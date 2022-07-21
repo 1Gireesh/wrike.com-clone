@@ -7,7 +7,9 @@
   color: white;
 }
 body{
-  height: 200vw;
+  /* height: 1000vw; */
+  width: 100vw;
+  overflow-x: hidden;
 }
 nav {
   background-color: rgb(2, 41, 52);
@@ -134,8 +136,6 @@ transition: color ease 0.3s;
   display: none;
 }
 
-
-
 .pg1cnt>h1{
   position: relative;
   width: 70%;
@@ -210,10 +210,61 @@ height: 100vh;
 
 #pg3{
 height: 100vh;
-background-color: teal;
+background-color: rgb(0, 48, 61);
 padding-top: 40px;
 }
 #pg3>h1{
   text-align: center;
   font-size: 30px;
+}
+#pg3{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#pg3>div>img{
+  width: 40%;
+  margin: auto;
+  border-radius: 60px 0 0 0;
+}
+#pg3>div{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+#pg3>div>div{
+  width: 40%;
+  margin: auto;
+  line-height: 40px;
+}
+#pg3>div>div p{
+  font-size: medium;
+  margin-top: 10px;
+}
+
+#pg3>div{
+  user-select: none;
+}
+#pg3>div>div a{
+  color: rgb(0, 255, 0);
+  text-decoration: none;
+}
+.slide{
+  width: 40px;
+  height: 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.slide:hover{
+  background-color: green;
+}
+
+#pg3{
+  width: 100vw;
+
+}
+
+#pg4{
+  display: flex;
+  flex-direction: column;
 }
