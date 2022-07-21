@@ -28,7 +28,15 @@ for(let i=0; i<slideBtns.length; i++){
 }
 document.addEventListener("drag",(e)=>{
     let i =Math.floor(Math.random()*4);
-    // console.log((Math.random)*4);
     document.querySelector('#pg3>div>img').src = imgs[i];
     document.querySelector('#pg3>div>div>h2').innerText='"'+arr[i]+'"';
 })
+
+
+
+
+
+
+
+
+

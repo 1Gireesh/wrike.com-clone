@@ -1,0 +1,308 @@
+
+.pg1cnt>h1{
+    position: relative;
+    width: 70%;
+    text-align: center;
+    font-size: 40px;
+    margin: auto;
+  }
+  .pg1cnt>h3{
+    position: relative;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+  }
+  .pg1cnt{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    top: 100px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .pg1cnt>div{
+    margin-top: 40px;
+  }
+  .pg1cnt>div>input{
+  width: 400px;
+  height: 40px;
+  color: black;
+  }
+  #pg1{
+    background-image: url(https://web-static.wrike.com/content/uploads/2022/01/rebrand-hero-illustration_homepage_screenshots_dark_1920x680_1x.png);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    height: 90vh;
+    position: relative;
+    top: 60px;
+     background-color: rgb(3, 54, 35);
+     width: 100vw;
+     overflow: hidden;
+  }
+  .pg1cnt>a{
+    font-size: larger;
+    margin-top: 10px;
+    color: rgb(8, 197, 23);
+    text-decoration: none;
+  }
+  #pg2{
+    background-color: #1c202f;
+    color: white;
+  height: 100vh;
+  }
+  #pg2>p{
+    position: relative;
+    /* top: 200px; */
+    margin-top: 50px;
+    text-align: center;
+  }
+  #pg2>div{ 
+    margin-top: 100px;
+    display: flex;
+  }
+  #pg2>div>div{
+   font-size: large;
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  #pg3{
+  height: 100vh;
+  background-color: rgb(0, 48, 61);
+  padding-top: 40px;
+  }
+  #pg3>h1{
+    text-align: center;
+    font-size: 30px;
+  }
+  #pg3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  #pg3>div>img{
+    width: 40%;
+    margin: auto;
+    border-radius: 60px 0 0 0;
+  }
+  #pg3>div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  #pg3>div>div{
+    width: 40%;
+    margin: auto;
+    line-height: 40px;
+  }
+  #pg3>div>div p{
+    font-size: medium;
+    margin-top: 10px;
+  }
+  
+  #pg3>div{
+    user-select: none;
+  }
+  #pg3>div>div a{
+    color: rgb(0, 255, 0);
+    text-decoration: none;
+  }
+  .slide{
+    width: 40px;
+    height: 10px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  .slide:hover{
+    background-color: green;
+  }
+  
+  #pg3{
+    width: 100vw;
+  }
+  
+  #pg4{
+    display: flex;
+    flex-direction: column; 
+    background-color: rgb(3, 101, 67);
+    justify-content: space-between;
+  }
+  #pg4>div:nth-child(1){
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+  }
+  #pg4>div>p{
+    width: 60%;
+    text-align: center;
+  }
+.second{
+    display: flex;
+}
+ .second>div{
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    /* align-items: center; */
+ }
+ .second>div>a{
+    color: rgb(0, 255, 0);
+    text-decoration: none;
+ }
+ .third{
+    margin: auto;
+    width: 90%;
+    border: 2px solid rgb(0, 255, 0);
+    padding: 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+ 
+  
+  #pg4{
+    display: flex;
+    flex-direction: column; 
+    background-color: rgb(3, 87, 78);
+    justify-content: space-between;
+  }
+  #pg4>div:nth-child(1){
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+  }
+  #pg5{
+    /* height: 100vh; */
+    background-color: rgb(5, 111, 95);
+    padding-top: 50px;
+  }
+  #pg5>div>p{
+    width: 60%;
+    text-align: center;
+  }
+  #pg5>div:nth-child(1){
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+  }
+.second{
+    display: flex;
+}
+ .second>div{
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    /* align-items: center; */
+ }
+ .second>div>a{
+    color: rgb(0, 255, 0);
+    text-decoration: none;
+ }
+ .third{
+    margin: auto;
+    width: 90%;
+    border: 2px solid rgb(0, 255, 0);
+    padding: 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+  #pg6{
+    /* height: 100vh; */
+    background-color: rgb(7, 84, 66);
+    padding-top: 50px;
+  }
+  #pg6>div>p{
+    width: 60%;
+    text-align: center;
+  }
+  #pg6>div:nth-child(1){
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+  }
+.second{
+    display: flex;
+}
+ .second>div{
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    /* align-items: center; */
+ }
+ .second>div>a{
+    color: rgb(0, 255, 0);
+    text-decoration: none;
+ }
+ .third{
+    margin: auto;
+    margin-top: 60px;
+    width: 90%;
+    border: 2px solid rgb(0, 255, 0);
+    padding: 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+ #pg7{
+    height: 60vh;
+    background-color: teal;
+    padding-top: 50px;
+  
+  }
+  #pg7>div>div{
+    /* width: 60%; */
+     display: flex;
+justify-content: space-between;
+  }
+
+.secondl{
+    display: flex;
+    background-image: url(https://web-static.wrike.com/content/uploads/2022/04/rebrand-promo-integrations_colored-bg_desktop.svg?av=889d1fed0cf74aba8d0506c8ead5254b);
+    background-size: 25%;
+    background-repeat: no-repeat no-repeat;
+    height: 50vh;
+    background-position-x: right;
+    margin-right: 20px;
+}
+ .secondl>div{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .secondl>div>a{
+    color: rgb(0, 255, 0);
+    text-decoration: none;
+ }
+ #limg{
+    width: 50%;
+ }
