@@ -77,6 +77,10 @@ nav > div > a > img {
   color: rgb(0, 255, 0);
   transition: all 0.1s ease;
 }
+.drpul a{
+  color: black;
+  text-decoration: none;
+}
 .nvpart > ul:hover{
     color: rgb(0, 255, 0);
   transition: all 0.1s ease; 

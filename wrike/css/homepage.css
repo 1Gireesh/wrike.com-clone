@@ -291,7 +291,9 @@ justify-content: space-between;
     background-repeat: no-repeat no-repeat;
     height: 50vh;
     background-position-x: right;
-    margin-right: 20px;
+    justify-content: center;
+    margin: auto;
+
 }
  .secondl>div{
     width: 60%;
