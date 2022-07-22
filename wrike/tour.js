@@ -26,7 +26,6 @@ for (let i = 0; i < paras.length; i++) {
       img.style.opacity = "0";
     }
 
-
     p.style.display = "block";
     img.style.opacity = "1";
   });
