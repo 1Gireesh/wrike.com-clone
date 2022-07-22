@@ -34,9 +34,3 @@ document.addEventListener("drag",(e)=>{
 
 
 
-
-
-
-
-
-

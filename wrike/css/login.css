@@ -1,0 +1,47 @@
+#logo{
+    width: 250px;
+}
+
+a{
+    text-decoration: none;
+}
+.ctn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+    box-shadow: 1px 1px 10px black;
+    width: 400px;
+    align-items: center;
+}
+.pg{
+    position: absolute;
+    /* top: 10%;
+    left: 35%; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ctn>div>p>img{
+    width: 15px;
+}
+.ctn>input,.ctn>button{
+    width: 90%;
+    height: 40px;
+    border: 2px solid blue;
+}
+.ctn>button{
+    background-color: blue;
+
+}
+.ctn>div{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    gap: 20px;
+}
+.pg2{
+    display: none;
+}
