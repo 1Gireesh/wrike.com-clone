@@ -1,0 +1,63 @@
+.pg1cnt>h1{
+    position: relative;
+    width: 70%;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    margin: auto;
+  }
+  h3{
+    color: black;
+  }
+  .pg1cnt>h3{
+    position: relative;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+  }
+  .pg1cnt{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    top: 100px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .pg1cnt>div{
+    margin-top: 40px;
+  }
+  .pg1cnt>div>input{
+  width: 400px;
+  height: 40px;
+  color: black;
+  }
+  #pg1{
+    background-image: url(https://web-static.wrike.com/content/uploads/2022/01/rebrand-hero-illustration_homepage_screenshots_dark_1920x680_1x.png);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    height: 90vh;
+    position: relative;
+    top: 60px;
+     background-color: rgb(255, 255, 255);
+     width: 100vw;
+     color: black;
+     overflow: hidden;
+  }
+  .pg1cnt>a{
+    font-size: larger;
+    margin-top: 10px;
+    color: rgb(8, 197, 23);
+    text-decoration: none;
+  }
+  #srtfrfr{
+    width: 100px;
+    height: 40px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+  }
+
+  #pg2{
+
+  }

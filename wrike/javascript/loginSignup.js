@@ -1,5 +1,7 @@
 let o =JSON.parse(localStorage.getItem("o")) || {};
 
+
+
 document.getElementById('btn1').addEventListener("click",()=>{
 
 
